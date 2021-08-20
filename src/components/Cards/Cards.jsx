@@ -11,3 +11,11 @@ const Cards = ({
     if (!confirmed) {
       return "Loading...";
     }
+    const active = confirmed["value"] - recovered["value"] - deaths["value"];
+    let cardDetails = [
+      {
+        style: styles.infected,
+        text: "Infected",
+        value: confirmed.value,
+        bottomText: "Number of infect cases of COVID-19",
+      },
