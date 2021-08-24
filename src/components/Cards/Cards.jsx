@@ -19,3 +19,9 @@ const Cards = ({
         value: confirmed.value,
         bottomText: "Number of infect cases of COVID-19",
       },
+      {
+        style: styles.recovered,
+        text: "Recovered",
+        value: recovered.value,
+        bottomText: "Number of recoveries from COVID-19",
+      },
