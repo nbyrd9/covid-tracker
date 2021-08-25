@@ -25,3 +25,9 @@ const Cards = ({
         value: recovered.value,
         bottomText: "Number of recoveries from COVID-19",
       },
+      {
+        style: styles.deaths,
+        text: "Deaths",
+        value: deaths.value,
+        bottomText: "Number of deaths caused by COVID-19",
+      },
