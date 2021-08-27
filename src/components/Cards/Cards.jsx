@@ -31,3 +31,5 @@ const Cards = ({
         value: deaths.value,
         bottomText: "Number of deaths caused by COVID-19",
       },
+      {
+        style: styles.active,
