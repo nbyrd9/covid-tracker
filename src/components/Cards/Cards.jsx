@@ -33,3 +33,4 @@ const Cards = ({
       },
       {
         style: styles.active,
+        text: "Active",
