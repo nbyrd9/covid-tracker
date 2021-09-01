@@ -42,3 +42,5 @@ return (
   <div className={styles.container}>
     <Grid container spacing={3} justify="center"></Grid>
     {cardDetails.map((detail, index) => (
+        <Grid
+        item
