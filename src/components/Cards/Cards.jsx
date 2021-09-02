@@ -44,3 +44,7 @@ return (
     {cardDetails.map((detail, index) => (
         <Grid
         item
+        component={Card}
+        xs={12}
+        md={2}
+        className={cx(styles.Card, detail.style)}
