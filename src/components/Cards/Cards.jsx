@@ -48,3 +48,4 @@ return (
         xs={12}
         md={2}
         className={cx(styles.Card, detail.style)}
+        key={index}
