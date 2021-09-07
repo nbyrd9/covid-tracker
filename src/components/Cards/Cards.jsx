@@ -43,11 +43,13 @@ return (
     <Grid container spacing={3} justify="center"></Grid>
     {cardDetails.map((detail, index) => (
         <Grid
-        item
-        component={Card}
-        xs={12}
-        md={2}
-        className={cx(styles.Card, detail.style)}
-        key={index}
-        style={{ margin: "0px 23.675px", padding: "12px" }}
+            item
+            component={Card}
+            xs={12}
+            md={2}
+            className={cx(styles.Card, detail.style)}
+            key={index}
+            style={{ margin: "0px 23.675px", padding: "12px" }}
         >
+            <CardContent>
+              <Typography color="textPrimary" gutterBottom></Typography>
