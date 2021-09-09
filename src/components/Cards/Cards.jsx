@@ -55,3 +55,4 @@ return (
               <Typography color="textPrimary" gutterBottom>
               <b>{detail.text}</b>
               </Typography>
+              <Typography variant="h5">
