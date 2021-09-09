@@ -52,4 +52,6 @@ return (
             style={{ margin: "0px 23.675px", padding: "12px" }}
         >
             <CardContent>
-              <Typography color="textPrimary" gutterBottom></Typography>
+              <Typography color="textPrimary" gutterBottom>
+              <b>{detail.text}</b>
+              </Typography>
