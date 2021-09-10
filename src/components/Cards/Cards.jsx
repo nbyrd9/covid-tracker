@@ -57,4 +57,4 @@ return (
               </Typography>
               <Typography variant="h5">
                 <Count Up
-                start = {0}
+                start 
