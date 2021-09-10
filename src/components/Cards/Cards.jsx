@@ -56,3 +56,5 @@ return (
               <b>{detail.text}</b>
               </Typography>
               <Typography variant="h5">
+                <Count Up
+                start = {0}
