@@ -57,4 +57,5 @@ return (
               </Typography>
               <Typography variant="h5">
                 <Count Up
-                start 
+                start={0}
+                end={detail.value}
