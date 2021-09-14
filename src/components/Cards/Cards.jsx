@@ -61,3 +61,6 @@ return (
                 end={detail.value}
                 duration={2}
                   separator=","
+                  />
+                  </Typography>
+                  <Typography color="textPrimary">Last Updated at : </Typography>
