@@ -59,5 +59,4 @@ return (
                 <Count Up
                 start={0}
                 end={detail.value}
-                duration={2}
-                  separator=","
+               
