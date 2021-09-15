@@ -67,3 +67,6 @@ return (
                   <Typography color="textSecondary" variant="body2">
                 {new Date(lastUpdate).toDateString()}
               </Typography>
+              <Typography color="textSecondary" variant="body2">
+                {new Date(lastUpdate).toLocaleTimeString()}
+              </Typography>
