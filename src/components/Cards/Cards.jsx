@@ -71,3 +71,5 @@ return (
                 {new Date(lastUpdate).toLocaleTimeString()}
               </Typography>
               <Typography variant="body2">{detail.bottomText}</Typography>
+              <Typography color="textPrimary"> {country} </Typography>
+            </CardContent>
