@@ -73,3 +73,9 @@ return (
               <Typography variant="body2">{detail.bottomText}</Typography>
               <Typography color="textPrimary"> {country} </Typography>
             </CardContent>
+            </Grid>
+        ))}
+      </Grid>
+    </div>
+  );
+};
