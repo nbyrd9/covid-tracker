@@ -6,7 +6,11 @@
     margin: 0 2% !important
 }
 
-.infected{
+.infected {
     background-color: rgba(102, 179, 255, 0.5) !important;
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+    background-color: rgba(191, 242, 202, 0.5) !important;
 }
