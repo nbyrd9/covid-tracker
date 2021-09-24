@@ -15,3 +15,7 @@
     background-color: rgba(191, 242, 202, 0.5) !important;
     border-bottom: 10px solid rgba(0, 255, 0, 0.5);
 }
+
+.deaths {
+    background-color: rgba(237, 178, 178, 0.5) !important; 
+  }
