@@ -21,3 +21,6 @@
     border-bottom: 10px solid rgba(255, 0, 0, 0.5)
 }
 
+.active {
+    background-color: rgba(237, 199, 152, 0.5) !important
+}
