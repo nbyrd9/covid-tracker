@@ -12,4 +12,6 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         fetchAPI()
     }, [])
     const lineChart = dailyData.length ? (
+        <Line
+      data={{
 export default Chart
