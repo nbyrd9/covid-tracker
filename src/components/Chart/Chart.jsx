@@ -11,4 +11,5 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         }
         fetchAPI()
     }, [])
+    const lineChart
 export default Chart
