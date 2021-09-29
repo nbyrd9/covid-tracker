@@ -9,4 +9,6 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         const fetchAPI = async () => {
           setDailyData(await fetchDailyData());
         };
+        fetchAPI();
+    }, []);
 export default Chart
