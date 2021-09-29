@@ -5,5 +5,8 @@ import styles from "./Chart.module.css"
 
 const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     const [dailyData, setDailyData] = useState([]);
-
+    useEffect(() => {
+        const fetchAPI = async () => {
+          setDailyData(await fetchDailyData());
+        };
 export default Chart
