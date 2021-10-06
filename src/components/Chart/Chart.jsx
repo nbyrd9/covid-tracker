@@ -14,4 +14,10 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     const lineChart = dailyData.length ? (
         <Line
       data={{
+        labels: dailyData.map(({ date }) => date),
+        datasets: [
+
+
+
+
 export default Chart
