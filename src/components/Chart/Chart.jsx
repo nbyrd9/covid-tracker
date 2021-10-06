@@ -16,6 +16,8 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
       data={{
         labels: dailyData.map(({ date }) => date),
         datasets: [
+          {
+            data: dailyData.map(({ confirmed }) => confirmed),
 
 
 
