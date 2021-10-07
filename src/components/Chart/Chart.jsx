@@ -22,6 +22,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             borderColor: "#3333ff",
             fill: true,
           },
+          {
 
 
 
