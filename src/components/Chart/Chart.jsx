@@ -23,6 +23,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             fill: true,
           },
           {
+            data: dailyData.map(({ deaths }) => deaths),
 
 
 
