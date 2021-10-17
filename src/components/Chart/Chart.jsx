@@ -40,6 +40,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
       labels: ["Infected", "Recovered", "Deaths"],
       datasets: [
         {
+          label: "People",
 
 
 
