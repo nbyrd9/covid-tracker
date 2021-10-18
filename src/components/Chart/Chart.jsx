@@ -45,6 +45,9 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             "rgba(0, 0, 255, 0.5)",
             "rgba(0, 255, 0, 0.5)",
             "rgba(255, 0, 0, 0.5)",
+            "rgba(242, 234, 0, 0.5)",
+            ],
+            hoverBackgroundColor: [
 
 
 
