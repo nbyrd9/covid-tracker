@@ -55,6 +55,12 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             ],
             data: [
               confirmed.value,
+              recovered.value,
+              deaths.value,
+              confirmed.value - (recovered.value + deaths.value),
+            ],
+          },
+        ],
 
 
 
