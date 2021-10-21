@@ -63,7 +63,8 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         ],
       }}
       options={{
-        legend
+        legend: { display: false },
+
 
 
 
