@@ -6,3 +6,4 @@ import { fetchCountries } from "../../api";
 const CountryPicker = ({ handleCountryChange }) => {
     const [fetchedCountries, setFetchedCountries] = useState([]);
     useEffect(() => {
+        const fetchAPI = async () => {
