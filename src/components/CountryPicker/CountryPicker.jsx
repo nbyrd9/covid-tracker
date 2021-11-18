@@ -29,3 +29,6 @@ const CountryPicker = ({ handleCountryChange }) => {
                 </FormControl>
               );
             };
+            
+            
+export default CountryPicker;
