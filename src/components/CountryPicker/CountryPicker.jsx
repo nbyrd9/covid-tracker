@@ -20,3 +20,6 @@ const CountryPicker = ({ handleCountryChange }) => {
             >
                 <option value="">Global</option>
                 {fetchedCountries.map((country, key) => (
+                    <option key={key} value={country}>
+                         {country}
+                    </option>
