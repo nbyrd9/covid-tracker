@@ -23,3 +23,9 @@ const CountryPicker = ({ handleCountryChange }) => {
                     <option key={key} value={country}>
                          {country}
                     </option>
+                    </option>
+                    ))}
+                  </NativeSelect>
+                </FormControl>
+              );
+            };
