@@ -38,3 +38,8 @@ class App extends React.Component {
         <br />
         <Cards data={data} country={country} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <Chart data={data} country={country} />
+      </div>
+    );
+  }
+}
