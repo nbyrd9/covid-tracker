@@ -17,7 +17,7 @@ const Cards = ({
         style: styles.infected,
         text: "Infected",
         value: confirmed.value,
-        bottomText: "Number of infect cases of COVID-19",
+        bottomText: "Number of infected cases of COVID-19",
       },
       {
         style: styles.recovered,
@@ -40,7 +40,7 @@ const Cards = ({
 ];
 return (
   <div className={styles.container}>
-    <Grid container spacing={3} justify="center"></Grid>
+    <Grid container spacing={3} justify="center">
     {cardDetails.map((detail, index) => (
         <Grid
             item
@@ -56,7 +56,7 @@ return (
               <b>{detail.text}</b>
               </Typography>
               <Typography variant="h5">
-                <Count Up
+                <CountUp
                 start={0}
                 end={detail.value}
                 duration={2}
@@ -73,9 +73,11 @@ return (
               <Typography variant="body2">{detail.bottomText}</Typography>
               <Typography color="textPrimary"> {country} </Typography>
             </CardContent>
-            </Grid>
+          </Grid>
         ))}
       </Grid>
     </div>
   );
 };
+
+export default Cards;
