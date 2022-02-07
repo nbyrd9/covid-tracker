@@ -63,7 +63,7 @@ return (
                   separator=","
                   />
                   </Typography>
-                  <Typography color="textPrimary">Last Updated at : </Typography>
+                  <Typography color="textPrimary">Last Updated: </Typography>
                   <Typography color="textSecondary" variant="body2">
                 {new Date(lastUpdate).toDateString()}
               </Typography>
