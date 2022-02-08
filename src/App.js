@@ -28,7 +28,7 @@ class App extends React.Component {
           <img className={styles.image} src={coronaImage} alt="COVID-19" />
           <br />
           <text>
-            <b>Global and Country Wise Cases of Corona Virus</b>
+            <b>COVID-19 Cases Worldwide by Country</b>
           </text>
           <br />
           <text>
